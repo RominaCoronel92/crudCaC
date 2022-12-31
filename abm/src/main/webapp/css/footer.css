@@ -1,0 +1,53 @@
+footer{
+    text-align: -webkit-center;
+    background: linear-gradient(#FEFEFE,#888888);
+}
+      
+   #social-test {
+        font-size: 35px;
+   }
+        li {
+          display: inline-block;
+        }
+        li a {
+          color: rgb(48, 48, 94);
+          list-style-type: none;
+          display: inline-block;
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+          padding: 1%;
+          cursor: pointer;
+          margin-left: 10px;
+          margin-bottom: 20px;
+          transition: ease .3s;
+        }
+          a:hover {
+            color: black;
+            border: 1px solid rgba(256, 256, 256, 1);
+          }
+    
+      
+      .social:hover > li {
+        opacity: 0.5;
+      }
+      
+      .social:hover > li:hover {
+        opacity: 1;
+      }
+
+    p{
+        text-align: center;
+        font-size: 15px;
+        font-family: monospace;
+        
+    }
+
+footer{
+        margin-left: 5%;
+        position: absolute;
+        bottom: 0;
+        width: 100px;
+        display: contents;
+    }
+    
